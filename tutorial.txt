@@ -1,0 +1,13 @@
+step1: environment installation
+
+pip install cython
+pip install easycython
+
+step2: start convertion
+
+注意!! 請使用備分的py檔因為以下轉黨會洗掉py黨
+
+首先編輯py_to_pyx.py裡的path，將其改為py黨存放的目錄
+接著運行py_to_pyx.py將所有py檔名轉換為pyx
+最後在pyx黨存放目錄下運行以下指令一次轉換所有pyx成pyd
+easycython *.pyx 
